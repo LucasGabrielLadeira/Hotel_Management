@@ -1,0 +1,12 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hotel?useTimezone=true&serverTimezone=UTC&useLegacyData
+    username: User
+    password: Password
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  properties:
+    hibernate.format_sql: true
